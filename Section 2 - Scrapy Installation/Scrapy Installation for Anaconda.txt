@@ -1,0 +1,5 @@
+The same can be found in scrapy documentation.
+
+- Make sure Anaconda or Miniconda is installed.
+- Run the following command to install scrapy:
+	conda install -c conda-forge scrapy

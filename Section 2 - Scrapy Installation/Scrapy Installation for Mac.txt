@@ -1,0 +1,26 @@
+The same can also be found in scrapy documentation (https://docs.scrapy.org/en/latest/), this is a short version for quick installation.
+
+
+Requirements:
+	C Compiler
+	Python Virtual Environment (with the latest python3.x version)
+
+
+
+Building Scrapy’s dependencies require the presence of a C compiler and development headers. On macOS, this is typically provided by Apple’s Xcode development tools. To install the Xcode command-line tools open a terminal window and run:
+
+	xcode-select --install
+
+Navigate to your project directory. Then create a virtual environment using the python3 command with the built-in venv module like:
+
+	python3 -m venv env-name
+
+You can name your environment anything you'd like, just replace the env-name with yours in the above command.
+
+After creating the virtual environment you have to activate it using the following command (make sure to replace the env-name with your environment name in the below command as well):
+
+	source env-name/bin/activate
+
+Now simply install Scrapy using pip like:
+
+	pip install Scrapy
